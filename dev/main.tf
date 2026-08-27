@@ -24,8 +24,8 @@ module "property" {
   hostname        = var.hostname
   edge_hostname   = var.edge_hostname
   property_version_notes = var.property_version_notes
-  activate_latest_on_staging = false
-  #activate_latest_on_production = false
+  activate_latest_on_staging = var.activate_latest_on_staging
+  activate_latest_on_production = var.activate_latest_on_production
 }
 
 data "akamai_property" "my_property" {
