@@ -11,8 +11,8 @@ resource "akamai_property" "this" {
     cert_provisioning_type = "CPS_MANAGED"
   }
 
-  rule_format = data.akamai_property_rules_builder.terra-demo-dev_rule_default.rule_format
-  rules = replace( data.akamai_property_rules_builder.terra-demo-dev_rule_default.json, "\"rules\"", "\"comments\": \"${var.property_version_notes}\", \"rules\"")
+  rule_format = data.akamai_property_rules_builder.terra-demo_rule_default.rule_format
+  rules = replace( data.akamai_property_rules_builder.terra-demo_rule_default.json, "\"rules\"", "\"comments\": \"${var.property_version_notes}\", \"rules\"")
 }
 
 resource "akamai_edge_hostname" "this" {
