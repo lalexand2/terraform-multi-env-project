@@ -1,8 +1,8 @@
-origin_hostname = "lalexand-amd-terra-prod.akamaized.net"
-cp_code         = 1698638
-property_name   = "lalexand-amd-terra_prod"
+origin_hostname = "terra-demo-prod.akamaized.net"
+cp_code         = 9999999
+property_name   = "terra-demo-prod"
 contract_id     = "ctr_C-1ED34DY"
-group_id        = "grp_63802"
+group_id        = "grp_12345"
 hostname        = "lalexand-amd-terra-prod.akamaized.net"
 edge_hostname   = "lalexand-amd-terra-prod.akamaized.net"
 env = "prod"
