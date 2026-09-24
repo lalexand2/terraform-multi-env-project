@@ -1,6 +1,6 @@
-origin_hostname = "lalexand-amd-terra-dev.akamaized.net"
+origin_hostname = "terra-demo-dev.akamaized.net"
 cp_code         = 9999999
-property_name   = "lalexand-amd-terra_dev"
+property_name   = "terra-demo-dev"
 contract_id     = "ctr_C-XXXXXX"
 group_id        = "grp_123456"
 hostname        = "terra-demo-dev.akamaized.net"
