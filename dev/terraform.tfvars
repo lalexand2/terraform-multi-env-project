@@ -1,10 +1,10 @@
 origin_hostname = "lalexand-amd-terra-dev.akamaized.net"
-cp_code         = 1698638
+cp_code         = 9999999
 property_name   = "lalexand-amd-terra_dev"
-contract_id     = "ctr_C-1ED34DY"
-group_id        = "grp_"
-hostname        = "lalexand-amd-terra-dev.akamaized.net"
-edge_hostname   = "lalexand-amd-terra-dev.akamaized.net"
+contract_id     = "ctr_C-XXXXXX"
+group_id        = "grp_123456"
+hostname        = "terra-demo-dev.akamaized.net"
+edge_hostname   = "terra-demo-dev.akamaized.net"
 env = "dev"
 property_version_notes = "Terraform update for dev environment"
 activate_latest_on_staging = false
